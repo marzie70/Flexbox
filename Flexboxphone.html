@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlexboxPhone</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .flex-container {
+            font-size: 100vh;
+            display: flex;
+            flex-direction: column ;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #f8f8f8;
+            /* border: 1vw solid #d9dbdc; */
+            border-radius: 3vh;
+            height: 60vh;
+            width: 30vw;
+         
+        }
+
+        .speacker{
+            width: 5vw;
+            height: 1vh;
+            border-radius: 1vw;
+            background: #292728;
+            align-self: center;
+        }
+        .screen {
+            background: rgb(26, 24, 24);
+            height: 50vh;
+            width: 25vw;
+            border-radius: 3vw;   
+        }
+
+        .phonebutton {
+           
+            width: 5vw;
+            height: 5vh;
+            background: whitesmoke;
+            border-radius: 1vw;
+            border: 0.1vw solid rgb(207, 45, 45);
+
+        }
+        /*.fourth{
+            width: 330px;
+            height: 100px;
+            margin-top: 500px;
+            margin-left: -100px;
+            transform: skew(60deg);
+            position: absolute;
+            z-index: -1;
+            border-radius: 25px;
+            background-image: linear-gradient(to top, rgba(20, 20, 20, 0.726), rgba(209, 209, 209, 0.363));
+        }*/
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="speacker"></div>
+        <div class="screen"></div>
+        <div class="phonebutton"></div>
+    </div>
+
+</body>
+
+</html>
